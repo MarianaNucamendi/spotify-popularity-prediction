@@ -1,9 +1,20 @@
+# Python
 __pycache__/
 .ipynb_checkpoints/
+
+# Entornos
 .env
+.venv/
+venv/
+
+# Configuración del editor
 .vscode/
 
-outputs/
-data/processed/
+# Datos
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Modelos entrenados
 *.pkl
 *.joblib
